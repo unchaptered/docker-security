@@ -21,6 +21,16 @@ PID   USER     TIME  COMMAND
 /app # exit
 ```
 
+`whoami` 및 `id` 명령어를 이용해서 user, group 관계 확인
+
+```shell
+/app $ whoami
+# expressjs
+
+/app $ id
+# uid=1001(expressjs) gid=1001(nodejs) groups=1001(nodejs)
+```
+
 외부 호스트에서 docker top을 이용해서 환경 확인
 
 ```shell
